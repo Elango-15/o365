@@ -10,9 +10,9 @@ logging.basicConfig(level=logging.INFO)
 
 
 # Azure AD App credentials (updated with provided values)
-TENANT_ID = 'ad5cd7c6-bcb2-4a2d-9106-28df885282df'  # Tenant ID
-CLIENT_ID = '6cd8273a-27ae-4a4e-8829-ac3eedf1e794'  # Client ID (App ID)
-CLIENT_SECRET = 'bup8Q~Mb6~MBnCdjman-Op~ndpwiMUcMHjh5FbbH'  # Secret ID value
+TENANT_ID =   # Tenant ID
+CLIENT_ID = # Client ID (App ID)
+CLIENT_ID = # SC ID value
 
 AUTHORITY = f"https://login.microsoftonline.com/{TENANT_ID}"
 SCOPE = ['https://graph.microsoft.com/.default']
